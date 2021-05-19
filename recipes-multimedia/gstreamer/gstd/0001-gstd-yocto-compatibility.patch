@@ -1,7 +1,7 @@
-From d165634984d5d600576701bf028194b92afe2c8b Mon Sep 17 00:00:00 2001
+From fa7a78c03856c3c3b2822fb2d1de81cede51df4f Mon Sep 17 00:00:00 2001
 From: Richard Buchmann <richard.buchmann@arcure.net>
 Date: Mon, 12 Apr 2021 12:54:21 +0200
-Subject: [PATCH] gstd yocto compatibility
+Subject: [PATCH 1/2] gstd yocto compatibility
 
 Signed-off-by: Richard Buchmann <richard.buchmann@arcure.net>
 ---
@@ -70,3 +70,6 @@ index a30715a..3bc36d3 100644
 -	@sudo -H pip3 install .
 +# install-am:
 +# 	@sudo -H pip3 install .
+-- 
+2.25.1
+

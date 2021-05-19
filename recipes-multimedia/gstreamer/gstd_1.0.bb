@@ -12,6 +12,7 @@ SRCBRANCH ?= "master"
 SRCREV = "v0.12.0"
 SRC_URI = "git://github.com/RidgeRun/gstd-1.x.git;protocol=https;branch=${SRCBRANCH} \
            file://0001-gstd-yocto-compatibility.patch \
+           file://0002-gstd-yocto-compatibility.patch \
            "
 
 S = "${WORKDIR}/git"
